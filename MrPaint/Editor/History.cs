@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MrPaint.Editor
 {
-    internal class History: IObservable<State>
+    internal class History: IObservable<State?>
     {
         public static History Instance { get; } = new History();
 
